@@ -1,4 +1,4 @@
-FROM node:6
+FROM node:6.2
 
 COPY package.json package.json
 ADD src src

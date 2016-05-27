@@ -1,0 +1,22 @@
+{
+  "name": "sentia-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SentiaAnalytics/sentia-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SentiaAnalytics/sentia-proxy/issues"
+  },
+  "homepage": "https://github.com/SentiaAnalytics/sentia-proxy#readme",
+  "dependencies": {
+    "http-proxy": "^1.13.3"
+  }
+}

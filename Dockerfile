@@ -1,7 +1,6 @@
 FROM node:6.2
 
-COPY package.json package.json
-ADD src src
+ADD . .
 
 RUN npm install
 RUN npm run build

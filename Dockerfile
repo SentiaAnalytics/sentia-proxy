@@ -1,7 +1,10 @@
 FROM node:6
+
 COPY package.json package.json
-COPY main.js main.js
-RUN npm install --prod
+ADD src src
+
+RUN npm install
+RUN npm run build
 
 ENV PORT 80
 EXPOSE 80
